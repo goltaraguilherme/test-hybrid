@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+#Projeto desenvolvido com TS durante teste para vaga na Hybrid utilizando React
+Libs: Axios, Sass, React-Icons
+O teste era constituído de dois desafios:
+##Desafio 1:
+O objetivo é fazer uma aplicação em React para visualização de álbuns e fotos dos usuários. A aplicação deverá conter uma tela em que o usuário verá uma lista de usuários. Ao selecionar um usuário, deverá ser exibido os álbuns de fotos pertencentes ao mesmo. Cada álbum selecionado deverá exibir as fotos no formato de thumbnail. Use sua criativade para exibir a navegação da melhor forma possível para o usuário.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O importante nesta parte do desafio é que saibamos como você lida com os componentes que formam as técnicas contemporâneas de desenvolvimento client-side, no que tange separação de responsabilidades, indentação de código, etc.
 
-## Available Scripts
+As funcionalidades esperadas são:
 
-In the project directory, you can run:
+Listar usuários;
+Listar álbuns de cada usuário;
+Visualizar as fotos de cada álbum no formato de thumbnail;
 
-### `yarn start`
+##Desafio 2:
+O objetivo é fazer uma tela em que o usuário verá uma lista de postagens. Cada postagem terá uma lista com seus referentes comentários. Um post pode ter ou não comentário, dependendo do que vier da API. O Usuário poderá editar e deletar um post.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O importante nesta parte do desafio é que saibamos como você lida com os componentes que formam as técnicas contemporâneas de desenvolvimento client-side, no que tange separação de responsabilidades, indentação de código, etc.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As funcionalidades esperadas são:
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Listar postagens;
+Listar comentários de cada postagem;
+Edição e remoção de uma postagem;
+Obs: Pode utilizar apenas o usuário 1 para a implementação. Exemplo: https://jsonplaceholder.typicode.com/users/1/posts
